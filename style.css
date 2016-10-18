@@ -1,0 +1,101 @@
+/* Cascading stylesheet for the Debian Installer Installation Guide */
+
+/* global style of the page */
+body {
+    background-color: #EEEEEE;
+    border: 40px solid #EEEEEE;
+    margin: 0;
+    padding: 0 10px;
+    font-family: "liberation sans", "Myriad ", "Bitstream Vera Sans", "Lucida Grande", "Luxi Sans", "Trebuchet MS", helvetica, verdana, arial, sans-serif;
+    line-height: 1.2em;
+}
+
+body > div.book, body > div.article, body > div.set, body > div.preface, body > div.chapter, body > div.section, body > div.appendix, body > div.part, div.sect1 {
+    margin-top: 0;
+    padding: 2em 6em 6em;
+}
+body > div.book, body > div.article, body > div.set, body > div.preface, body > div.chapter, body > div.section, body > div.appendix, body > div.part, div.sect1 {
+    padding: 2em;
+}
+
+body > div.book, body > div.article, body > div.set, body > div.preface, body > div.chapter, body > div.section, body > div.appendix, body > div.part, body > div.index, div.sect1 {
+    background-color: #FFFFFF;
+    margin: 40px auto 4em;
+    padding: 1px 40px 20px 30px;
+}
+
+hr {
+    border-top: 1px dotted #808080;
+    margin: 0;
+}
+
+a:link {
+    color: #0035C7;
+    text-decoration: none;
+}
+a:visited {
+    color: #00207A;
+    text-decoration: none;
+}
+a:link:hover {
+    color: #00207A;
+    text-decoration: underline;
+}
+
+code {
+    font-family: "liberation mono","bitstream vera mono","dejavu mono",monospace;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+h1 {
+    color: #C70036;
+    line-height: 1.1em;
+}
+
+
+h2, h3, h4, h5, h6 {
+    color: #C70036;
+}
+
+/* Terminal examples */
+pre.screen {
+    -moz-tab-size: 4;
+    background-color: #F5F5F5;
+    border-radius: 11px 11px 11px 11px;
+    border-style: none;
+    box-shadow: 0 2px 5px #AAAAAA inset;
+    color: #000000;
+    display: block;
+    font-family: "liberation mono","bitstream vera mono","dejavu mono",monospace;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    page-break-inside: avoid;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* table in content */
+
+.informaltable table, .table-contents table {
+    border-collapse: collapse;
+}
+
+.informaltable table th, .table-contents table th {
+    background-color: #C70036;
+    border: 1px solid black;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+	color: white;
+}
+
+.informaltable table td, .table-contents table td {
+    border: 1px solid black;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+.informaltable table th:hover, .table-contents table th:hover {
+    color: white;
+}
+
+
