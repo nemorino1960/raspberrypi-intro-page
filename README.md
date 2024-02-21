@@ -1,2 +1,2 @@
-# corso-raspberrypi-base
-Corso di base sperimentale su Raspberry Pi
+# raspberrypi-intro-page
+Alcuni appunti iniziali su Raspberry Pi
